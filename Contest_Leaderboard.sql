@@ -6,4 +6,4 @@ on h.hacker_id=s.hacker_id
 group by 1,2,3)sub
 group by 1,2
 having Score>0
-order by Score desc, sub.h_id
+order by Score desc, sub.h_id;

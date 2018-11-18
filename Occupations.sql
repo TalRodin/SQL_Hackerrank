@@ -6,4 +6,4 @@ from
     , case when Occupation = 'Actor' then name end as A
     , rank() over (partition by Occupation order by Name) as rank
     from Occupations)sub
-group by rank
+group by rank;

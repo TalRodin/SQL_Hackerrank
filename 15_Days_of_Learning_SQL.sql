@@ -23,4 +23,4 @@ from
 (select distinct submission_date 
  from Submissions)t1
 
-group by submission_date
+group by submission_date;

@@ -37,5 +37,5 @@ select '* * *'
 union
 select '* *'
 union
-select '*'
+select '*' ;
 

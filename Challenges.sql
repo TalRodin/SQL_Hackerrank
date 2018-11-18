@@ -14,4 +14,4 @@ having count_num_c = (select max(t1.c)
                         group by hacker_id)t2
                         group by t2.c
                         having count(t2.c)=1)
-order by 3 desc, 1
+order by 3 desc, 1;

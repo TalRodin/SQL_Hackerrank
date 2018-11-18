@@ -15,4 +15,4 @@ join Packages p
 on p.ID=f.Friend_ID)table_2
 where table_1.id=table_2.id)table_3
 where table_3.S_F>table_3.S
-order by table_3.S_F
+order by table_3.S_F;
